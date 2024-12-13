@@ -4,12 +4,12 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "server": "node src/server.js"
+    "dev": "vite",               
+    "build": "vite build",     
+    "start": "vite preview",    
+    "lint": "eslint .",          
+    "preview": "vite preview",   
+    "server": "node src/server.js" 
   },
   "dependencies": {
     "@tensorflow/tfjs": "^4.17.0",
